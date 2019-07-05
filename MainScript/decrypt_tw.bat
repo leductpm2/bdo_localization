@@ -1,0 +1,1 @@
+bdo_decrypt.exe languagedata_tw.loc languagedata_tw.txt

@@ -1,0 +1,1 @@
+MainScript\bdo_decrypt.exe languagedata_en.loc languagedata_en.txt

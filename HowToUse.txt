@@ -1,0 +1,18 @@
+1. Put languagedata_tw.loc into here 
+2. 
+	2.1 Use this link to get the current version:
+		http://akamai-gamecdn.blackdesertonline.com/live001/game/config/config.language.version
+	2.2 Replace xxx with the version:
+		http://akamai-gamecdn.blackdesertonline.com/live001/game/language/BDOLanguage_###.zip	
+	2.3 Unzip the downloaded BDOLanguage_[verison].zip.
+	2.4 Take the languagedata_en.loc and put into here too		
+		Noted: Old version I already get before:
+			366,369,378,383,389,395,397,399,411,417,429,431,438,443,447,455,462,474,476,483,488,497,510,515
+3. Run decrypt_en.bat
+4. Run decrypt_tw.bat
+5. 
+	Run Replace_With_Newest_En.bat for replace current languagedata_tw.txt with current languagedata_en.txt
+	Run Replace_With_Newest_EnAndRemovedLines.bat for replace current languagedata_tw.txt with current languagedata_en.txt and NewLookUpLoc.txt.
+6. Run encrypt_tw.bat
+7. Copy languagedata_tw_new.loc back to game folder and remove _new.
+8. Enjoy

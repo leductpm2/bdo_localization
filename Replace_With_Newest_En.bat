@@ -1,0 +1,1 @@
+MainScript\bdo_replace.exe languagedata_en.txt languagedata_tw.txt languagedata_tw_new.txt
