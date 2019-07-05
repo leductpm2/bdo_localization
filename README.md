@@ -1,0 +1,1 @@
+# bdo_localization using the compiled file in source code of https://github.com/AMGarkin
