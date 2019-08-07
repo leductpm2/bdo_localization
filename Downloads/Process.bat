@@ -30,8 +30,8 @@ if "%FOLDER%" EQU "" (
 	CALL %REPLACE% %ENG_TXT% %TW_TXT% %TW_TXT_NEW%
 	ECHO ====================================================================
 
-	ECHO Encripting & echo.     %TW_TXT% & echo.into & echo.     %TW_LOC_NEW%
-	CALL %ENCRYPT% %TW_TXT% %TW_LOC_NEW%
+	ECHO Encripting & echo.     %TW_TXT_NEW% & echo.into & echo.     %TW_LOC_NEW%
+	CALL %ENCRYPT% %TW_TXT_NEW% %TW_LOC_NEW%
 	ECHO ====================================================================
 	pause
 )
