@@ -13,8 +13,8 @@ Write-Host "Current version of English Loc: " $version
 $url_file = "http://akamai-gamecdn.blackdesertonline.com/live001/game/language/BDOLanguage_$version.zip"
 Write-Host "Url for download new English Loc: " $url_file
 
-$output_Zip = "$PSScriptRoot\..\Downloads\BDOLanguage_$version.zip"
-$output_Folder = "$PSScriptRoot\..\Downloads\BDOLanguage_$version"
+$output_Zip = "$PSScriptRoot\..\TEMP\BDOLanguage_$version.zip"
+$output_Folder = "$PSScriptRoot\..\TEMP"
 Write-Host "Output Zip directory: " $output_Zip
 Write-Host "Output Folder directory: " $output_Folder
 

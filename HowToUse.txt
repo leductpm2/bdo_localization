@@ -1,5 +1,1 @@
-1. Run "DownloadNewLoc.bat" 
-	It will download current NA localization into Downloads folder and then extract its.	
-2. Copy current languagedata_tw.loc into newest downloaded folder in Downloads( BDOLanguage_xxx).
-3. Click and drag the folder in step 2 into Process.bat
-4. Get the new "languagedata_tw_new.loc" in side the folder in step 2.
+Drop languagedata_tw.loc into CreateNewPatch

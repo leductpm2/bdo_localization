@@ -1,7 +1,0 @@
-Use this link to get the current version:
-http://akamai-gamecdn.blackdesertonline.com/live001/game/config/config.language.version
-Replace xxx with the version:
-http://akamai-gamecdn.blackdesertonline.com/live001/game/language/BDOLanguage_###.zip
-
-Old version I already get before:
-366,369,378,383,389,395,397,399,411,417,429,431,438,443,447,455,462,474,476,483,488,497,510,515
