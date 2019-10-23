@@ -1,1 +1,12 @@
-Drop languagedata_tw.loc into CreateNewPatch
+Put all the folder into game ads folder and run CreatePatch.
+
+Folder look like this:
+-BDO folder
+ |--ads
+    |--MainScript
+    |--CreateNewPatch.bat
+    |--CreatePatch.bat
+    |--languagedata_tw.loc
+		
+	
+Or Drag and Drop languagedata_tw.loc into CreateNewPatch.bat.

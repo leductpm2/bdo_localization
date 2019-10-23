@@ -2,6 +2,7 @@
 
 SET ROOT=%~dp0
 SET PROCESSING_LOC=%1
+
 SET DECRYPT=%ROOT%\MainScript\bdo_decrypt.exe
 SET ENCRYPT=%ROOT%\MainScript\bdo_encrypt.exe
 SET REPLACE=%ROOT%\MainScript\bdo_replace.exe
@@ -22,12 +23,13 @@ mkdir %FOLDER%
 if "%PROCESSING_LOC%" EQU "" (
 	ECHO Please put languagedata_tw.loc into!
 	pause
-) else (
-	PowerShell -ExecutionPolicy ByPass -File %ROOT%\MainScript\Download_LOC.ps1
-	
+) else (	
 	copy %PROCESSING_LOC% languagedata_tw_backup.loc
-	xcopy /s %PROCESSING_LOC% %FOLDER% /Y		
+	copy %PROCESSING_LOC% %FOLDER%
 	
+	PowerShell -ExecutionPolicy ByPass -File %ROOT%\MainScript\Download_LOC.ps1	
+			
+	ECHO ====================================================================
 	ECHO Decripting & echo.     %ENG_LOC% & echo.into & echo.     %ENG_TXT%
 	CALL %DECRYPT% %ENG_LOC% %ENG_TXT%
 	ECHO ====================================================================

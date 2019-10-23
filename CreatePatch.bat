@@ -1,0 +1,1 @@
+call CreateNewPatch.bat "%~dp0\languagedata_tw.loc"
